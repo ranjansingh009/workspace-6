@@ -185,6 +185,14 @@ ul, li{
   text-transform: uppercase;
   font-family: 'Arial Rounded MT Bold';
 }
+ h4.ourWork{
+	padding-top: 0px;
+    margin-bottom: 25px;
+    color: #ffffff;
+	font-size: 40px;
+	text-transform: uppercase;
+  font-family: 'Arial Rounded MT Bold';
+ }	
 .graphic-campaign p{
   color: #aeafae;
   font-size: 18px;
