@@ -1,0 +1,252 @@
+body{
+    box-sizing: border-box;
+    background: #f4f4f4;
+    color:#444444;
+}
+.container-fluid{
+    padding:0px;
+}
+header{
+    width:100%;
+    float:left;
+    padding: 12px 0;
+    box-shadow: 2px 0 2.94px 0.06px rgba(4,26,55,.16);
+    background-color:#f2dede;
+}
+section{
+    width:100%;
+    float:left;
+}
+.logo{
+    display: block;
+}
+.logo img{
+    max-width: 100%;
+    width: 75%;
+}
+.user-container{
+    list-style-type: none;
+    margin-top: 25px;
+}
+.user-container li{
+    display: inline-block;
+    border-right: 1px solid #bbb;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.user-container li:last-child{
+    border:none;
+}
+.user-container li a img{
+    max-width: 100%;
+    width: 24px;
+    border-radius: 50%;
+}
+.user-container li a{
+    color:#444444;
+    text-decoration: none;
+}
+.user-container li a:hover{
+    text-decoration: none;
+    color:#000;
+    color: #7733FF;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+ 
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin:0;
+  position: relative;
+}
+
+img.avatar {
+  width: 30%;
+  border-radius: 50%;
+}
+.mt-0{
+    margin-top:0px !important;
+}
+.service-container{
+    margin:40px 0;
+}
+footer{
+      box-shadow: 2px 0 2.94px 0.06px rgba(4,26,55,.16);
+    float: left;
+    width: 100%;
+    clear: both;
+    margin-top: 25px;
+    padding: 20px 0 7px;
+}
+.gameContainer {
+  position: relative;
+    width: 100%;
+    height: 300px;
+    margin: 25px 0 0;
+}
+
+.gameContainer .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.gameContainer:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+.gameContainer img {
+  position: absolute;
+  max-width:100%;
+  height: 300px;
+  left: 0;
+}
+
+.gameContainer .title {
+  position: absolute;
+  width:100%;
+  top: 120px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+}
+
+.gameContainer:hover .title {
+  top: 90px;
+}
+
+.gameContainer .button {
+  position: absolute;
+  width:100%;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.gameContainer .button a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+.gameContainer:hover .button {
+  opacity: 1;
+}
+.IndividualGameSection {
+    min-height: 420px;
+    padding-top: 50px;
+    position: relative;
+}
+.numberContainer {
+    float: left;
+    width: 100%;
+    clear: both;
+    margin-bottom: 20px;
+    position: relative;
+    display: block;
+}
+.numberContainer span {
+    color: #fff;
+    border: 1px solid #5d421b;
+    background: #5d421b;
+    padding: 16px 40px;
+    border-radius: 5px;
+    cursor: default;
+    width: 100px;
+    display: inline-block;
+}
+.systemInput span {
+    position: absolute;
+    right: 20%;
+    top: 5px;
+    background: #b1d03ff5;
+    border-color:#b1d03ff5;
+}
+
+.userInputNumber span {
+    position: absolute;
+    left: 20%;
+    top: 20px;
+    background:#337ab7;
+    border-color: #337ab7;
+}
+.numberContainer button{
+    margin-top: 127px;
+    width: 30%;
+    padding: 15px 0;
+    cursor: pointer;
+}
+.userInputNumber p{
+    position: absolute;
+    left: 21%;
+    top: 80px;
+    font-weight: bold;
+}
+.systemInput p {
+    position: absolute;
+    right: 20.5%;
+    top: 67px;
+    font-weight: bold;
+}
+.turnText {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 158px;
+    font-weight: bold;
+    font-size: 41px;
+    color:#7b0f0ff0;
+}
+    
+
+
+
+
+
+
+
+
+
+
